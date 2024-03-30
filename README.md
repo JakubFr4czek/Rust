@@ -11,3 +11,6 @@ Instrukcja uruchomienia plików:
 2) [Zmienne i Stałe](./lab1/examples/zmienne_i_stale.rs)
 3) [Proste typy danych](./lab1/examples/proste_typy_danych.rs)
 4) [Podstawowe typy złożonw](./lab1/examples/podstawowe_typy_zlozone.rs)
+5) [Funkcje](./lab1/examples/funkcje.rs)
+6) [Sterowanie przepływem](./lab1/examples/sterowanie_przeplywem.rs)
+7) [Zadanie - Kółko i krzyżyk](./lab1/examples/tictactoe.rs)
