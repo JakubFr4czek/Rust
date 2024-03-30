@@ -5,7 +5,7 @@ Instrukcja uruchomienia plików:
 2) git cd Rust/lab\<number laboratorium\>
 3) cargo run --example \<nazwa pliku\>
 
-## Laboratorium 1
+## Laboratorium 1 - Podstawowe konstrukcje języka
 
 1) [Wprowadzenie](./lab1/examples/wprowadzenie.rs)
 2) [Zmienne i Stałe](./lab1/examples/zmienne_i_stale.rs)
@@ -14,3 +14,8 @@ Instrukcja uruchomienia plików:
 5) [Funkcje](./lab1/examples/funkcje.rs)
 6) [Sterowanie przepływem](./lab1/examples/sterowanie_przeplywem.rs)
 7) [Zadanie - Kółko i krzyżyk](./lab1/examples/tictactoe.rs)
+
+## Laboratorium 2 - Ownership
+
+1) [Wprowadzenie](./lab2/examples/wprowadzenie.rs)
+2) [Przenoszenie własności](./lab2/examples/przenoszenie_wlasnosci.rs)
