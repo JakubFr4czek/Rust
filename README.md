@@ -2,8 +2,8 @@
 
 Instrukcja uruchomienia plików:
 1) git clone https://github.com/JakubFr4czek/Rust
-2) git cd Rust/lab<number laboratorium>
-3) cargo run --example <nazwa pliku>
+2) git cd Rust/lab\<number laboratorium\>
+3) cargo run --example \<nazwa pliku\>
 
 ## Laboratorium 1
 
