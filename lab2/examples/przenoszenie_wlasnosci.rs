@@ -14,4 +14,30 @@ fn main(){
     //Deep copy
     s1 = s2.clone();
     println!("s2 = {}, s1 = {}", s2, s1);
+
+    //OWnership, a funkcje
+    let number : i32 = 5;
+    let napis = String::from("Ala nie ma kota");
+    printNumber(number); //shallow copy
+    printNumber(number);
+    printString(napis); //napis sprzedany
+    //printString(napis); //error
+
+    //Ownership zwracany przez funkcje
+    let mut napis = String::from("Ala ma psa");
+    napis = resellString(napis);
+    printString(napis);
+
+}
+
+fn printNumber(number: i32){
+    println!("{}", number);
+}
+
+fn printString(napis: String){
+    println!("{}", napis);
+}
+
+fn resellString(napis: String) -> String{
+    napis
 }
