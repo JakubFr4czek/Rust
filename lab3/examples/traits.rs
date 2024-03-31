@@ -1,3 +1,5 @@
+use std::fmt::{Display, Formatter};
+
 #[derive(Debug)] //Żeby można było wypisać stukturę przy użyciu {:?}
 struct Rectangle{
     a : f32,
@@ -54,6 +56,15 @@ impl Shape for Rectangle{
 
 }
 
+impl Display for Rectangle {
+
+    fn fmt(&self, f: &mut Formatter<'_>) -> std::fmt::Result {
+        write!(f, "Rectangle[x={},y={}]", self.a, self.b)?;
+        Ok(())
+    }
+
+}
+
 
 fn main(){
 
@@ -62,4 +73,6 @@ fn main(){
     println!("{}", r.area());
     r.describe();
 
+    
+    println!("{}", r);
 }

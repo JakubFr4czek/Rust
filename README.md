@@ -30,4 +30,7 @@ Instrukcja uruchomienia plików:
 
 ## Laboratorium 3 - Struktury
 
-1) [Struktury danych](./lab3/examples/struktury_danych.rs)
+1) [Struktury danych](./lab3/examples/struktury_danych.rs) 
+2) [Traits](./lab3/examples/traits.rs)
+3) [Ćwiczenie 1](./lab3/examples/cwiczenie_1.rs)
+4) [Ćwiczenie 2](./lab3/examples/cwiczenie_2.rs)
