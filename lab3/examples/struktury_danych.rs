@@ -13,6 +13,27 @@ struct Rectangle{
     b : f32,
 }
 
+impl Rectangle{//Miejsce implementacji metod dla struktury Rectangle
+
+    fn area(&self) -> f32{ //trzeba przekazać self, tak jak w pythonie
+
+        self.a * self.b
+
+    }
+
+    fn scale(&mut self, scalar : f32){ //&mut self, żeby można było zmienić warości a i b
+
+        self.a = self.a * scalar;
+        self.b = self.b * scalar;
+
+    }
+
+    fn new_square(a : f32) -> Rectangle{
+        Rectangle{a, b : a}
+    }
+
+}
+
 fn main(){
 
     //pusta strutura
@@ -32,5 +53,22 @@ fn main(){
     //Instancja na bazie innej instancji
     let rect2 = Rectangle{a : 6.0, ..rect};
     println!("{:?}", rect2);
+    //rect2.a = 3.0; //error, struktura niemutowalna
+
+    //Mutowalne struktury
+    let mut rect2 = Rectangle{a : 3.0, ..rect};
+    rect2.a = 4.0;
+    println!("{:?}", rect2);
+
+    //Wywołanie metody ze struktury
+    println!("{}", rect2.area());
+
+    //Mnożenie prostokąta przez skalar
+    rect2.scale(3.0);
+    println!{"{:?}", rect2};
+
+    //Tworzę kwadrat
+    let sq = Rectangle::new_square(2.0);
+    println!("{:?}", sq);
 
 }
