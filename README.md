@@ -19,3 +19,9 @@ Instrukcja uruchomienia plików:
 
 1) [Wprowadzenie](./lab2/examples/wprowadzenie.rs)
 2) [Przenoszenie własności](./lab2/examples/przenoszenie_wlasnosci.rs)
+3) [Referencje i pożyczki](./la2/examples/referencje_i_pozyczki.rs)
+4) [Referencje ćwiczenie 1](./lab2/examples/referencje_cw1.rs)
+5) [Referencje ćwiczenie 2](./lab2/examples/referencje_cw2.rs)
+6) [Wycinki](./lab2/examples/wycinki.rs)
+7) [Wycinki - fragment kodu to zrozumienia](./lab2/examples/wycinki_fragment_kodu.rs)
+8) [Ćwiczenie 0](./lab2/examples/cwiczenie_0.rs)
