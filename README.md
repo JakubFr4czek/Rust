@@ -27,3 +27,7 @@ Instrukcja uruchomienia plików:
 8) [Ćwiczenie 0](./lab2/examples/cwiczenie_0.rs)
 9) [Ćwiczenie 1](./lab2/examples/cwiczenie_1.rs)
 10) [Ćwiczenie 2](./lab2/examples/cwiczenie_2.rs)
+
+## Laboratorium 3 - Struktury
+
+1) [Struktury danych](./lab3/examples/struktury_danych.rs)
