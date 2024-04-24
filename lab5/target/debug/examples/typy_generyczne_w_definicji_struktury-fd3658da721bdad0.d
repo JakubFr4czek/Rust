@@ -1,0 +1,5 @@
+/home/jakubfraczek/Dokumenty/Rust/lab5/target/debug/examples/typy_generyczne_w_definicji_struktury-fd3658da721bdad0: examples/typy_generyczne_w_definicji_struktury.rs
+
+/home/jakubfraczek/Dokumenty/Rust/lab5/target/debug/examples/typy_generyczne_w_definicji_struktury-fd3658da721bdad0.d: examples/typy_generyczne_w_definicji_struktury.rs
+
+examples/typy_generyczne_w_definicji_struktury.rs:
